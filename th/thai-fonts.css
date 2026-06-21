@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Noto Sans Thai', 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, .brand, .btn, .nav-links, .nav-cta, .lang-switch {
+  font-family: 'Noto Sans Thai', 'Space Grotesk', sans-serif;
+}
+
+.mono, .eyebrow, .process-num, .value-num {
+  font-family: 'Noto Sans Thai', 'JetBrains Mono', monospace;
+}

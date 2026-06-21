@@ -132,6 +132,18 @@ nav {
 
 .nav-cta:hover { background: var(--coral); }
 
+.lang-switch {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 4px;
+  padding: 6px 10px;
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-sm);
+}
+
+.lang-switch:hover { color: var(--ink); border-color: var(--ink); }
+
 .mobile-toggle { display: none; }
 
 /* ---------- BUTTONS ---------- */
