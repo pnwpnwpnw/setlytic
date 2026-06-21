@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
 
 :root {
-  --coral: #D85A30;
-  --coral-dark: #993C1D;
-  --coral-tint: #FAECE7;
-  --coral-tint-2: #F5C4B3;
+  --coral: #E0A800;
+  --coral-dark: #8A6800;
+  --coral-tint: #FBF3D9;
+  --coral-tint-2: #F5DE8E;
   --ink: #221E1B;
   --ink-soft: #5C5650;
   --paper: #FFFFFF;
