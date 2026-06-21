@@ -721,6 +721,81 @@ footer {
 .pricing-note h3 { font-size: 1.05rem; margin-bottom: 8px; color: var(--coral-dark); }
 .pricing-note p { font-size: 0.9rem; color: var(--ink); }
 
+/* ---------- PORTFOLIO PAGE ---------- */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.portfolio-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--line-strong);
+  box-shadow: 0 12px 28px rgba(34,30,27,0.06);
+}
+
+.portfolio-img {
+  aspect-ratio: 4 / 3;
+  background: var(--paper-warm);
+  border-bottom: 1px dashed var(--line-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-img svg { width: 32px; height: 32px; stroke: var(--line-strong); }
+
+.portfolio-body { padding: 22px; }
+.portfolio-body .tag { margin-bottom: 12px; }
+.portfolio-body h3 { font-size: 1.05rem; margin-bottom: 6px; }
+.portfolio-body p { color: var(--ink-soft); font-size: 0.9rem; }
+
+/* ---------- REVIEWS ---------- */
+.review-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px;
+}
+
+.review-quote {
+  color: var(--ink);
+  font-size: 0.98rem;
+  margin-bottom: 20px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--coral-tint);
+  color: var(--coral-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.review-author .name { font-size: 0.9rem; font-weight: 600; }
+.review-author .business { font-size: 0.82rem; color: var(--ink-soft); }
+
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 860px) {
   .nav-links { display: none; }
@@ -736,4 +811,5 @@ footer {
   .service-block { grid-template-columns: 1fr; gap: 28px; }
   .cta-band { padding: 40px 24px; }
   .wrap { padding: 0 20px; }
+  .portfolio-grid { grid-template-columns: 1fr; }
 }
